@@ -1,0 +1,60 @@
+.box-prova {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 300px;
+    margin: auto;
+    height: 300px;
+    justify-content: center;
+}
+
+.show-cars {
+    width: 100vw;
+    height: 100vw;
+    background: #80808099;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 11;
+}
+
+.show-cars div {
+    background: white;
+    height: 500px;
+    width: 50%;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    z-index: 111111111111;
+}
+
+spam#close-cars {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+p#resultado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+
+ .show-cars div {
+    height: 400px;
+    width: 100%;
+    left: 0;
+}
+
+p#resultado {
+    font-size: 16px;
+}
+
+}

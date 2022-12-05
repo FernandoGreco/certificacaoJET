@@ -1,3 +1,11 @@
+Layout Criado para Certificação da JET.
+
+Arquivo JS salvo em resources/js/certificacao
+
+Arquivos CSS salvo em resources/sass/certificacao.scss
+
+
+
 # NEO - Omnichannel commerce platform
 ![alt-text](https://img.shields.io/badge/version-2.71.78RC-orange.svg "Release Version")
 

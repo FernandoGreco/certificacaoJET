@@ -15,3 +15,9 @@ require("./ui/_start");
  * Start API
  */
 require("./api/_start");
+
+
+/**
+ * Certificação JET
+ */
+ require("./certificacao/certificacao");
